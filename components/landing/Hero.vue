@@ -2,7 +2,7 @@
   <main class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-8">
     <div class="p-24 md:order-1 hidden md:block">
       <img
-        class="rounded-full transition-transform transform hover:scale-125"
+        class="rounded-full scale-125"
         src="~/assets/img/hero.jpg"
         alt="Starship starts the engine"
         loading="eager"
@@ -14,27 +14,23 @@
 
     <div>
       <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight">
-        Marketing website done with Nuxt
+        Recorded History tells your stories
       </h1>
       <p class="text-lg mt-4 text-slate-600 max-w-xl">
-        Nuxtship is a starter template for startups, marketing websites &
-        landing pages.<wbr /> Built with Nuxt & TailwindCSS. You can quickly
-        create any website with this starter.
+        Through a high-quality interview, you or your loved ones' memories are brought to life in curated candor
       </p>
       <div class="mt-6 flex flex-col sm:flex-row gap-3">
         <LandingLink
-          href="https://github.com/Gr33nW33n/nuxtship-template"
-          target="_blank"
+          href="/contact"
           rel="noopener"
-          >Get Started</LandingLink
+          >Get started</LandingLink
         >
         <LandingLink
           size="lg"
           styleName="outline"
           rel="noopener"
-          href="https://github.com/Gr33nW33n/nuxtship-template"
-          target="_blank"
-          >View Repo</LandingLink
+          href="/about"
+          >Listen to our work</LandingLink
         >
       </div>
     </div>

@@ -1,65 +1,39 @@
 <script setup>
-const features = [
-  {
-    title: "Bring Your Own Framework",
-    description:
-      "Build your site using Vue, web components, or just plain ol' HTML + JavaScript.",
-    icon: "bx:bxs-briefcase",
-  },
-  {
-    title: "100% Static HTML, No JS",
-    description:
-      "Nuxt renders your entire page to static HTML, removing all JavaScript from your final build by default.",
-    icon: "bx:bxs-window-alt",
-  },
-  {
-    title: "On-Demand Components",
-    description:
-      "Need some JS? Nuxt can automatically hydrate interactive components when they become visible on the page.  ",
-    icon: "bx:bxs-data",
-  },
-  {
-    title: "Broad Integration",
-    description:
-      "Nuxt supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.",
-    icon: "bx:bxs-bot",
-  },
-  {
-    title: "SEO Enabled",
-    description:
-      "Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication. It just works!",
-    icon: "bx:bxs-file-find",
-  },
-  {
-    title: "Community",
-    description:
-      "Nuxt is an open source project powered by hundreds of contributors making thousands of individual contributions.",
-    icon: "bx:bxs-user",
-  },
-];
 </script>
 
 <template>
   <div class="mt-16 md:mt-0">
     <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
-      Everything you need to start a website
+      Here’s How It Works
     </h2>
-    <p class="text-lg mt-4 text-slate-600">
-      Nuxt comes batteries included. It takes the best parts of state-of-the-art
-      tools and adds its own innovations.
-    </p>
+    <ul class="text-lg mt-4 text-slate-600 list-disc ml-7">
+    <li>You fill out the questionnaire found <a class="underline font-bold" href="/contact">here</a> so that we can craft thoughtful questions.</li>
+
+<li>A member of the Recorded History team will contact you to schedule the conversation.</li>
+
+<li>Then, sit with an interviewer to capture you or your loved ones' memories in a casual conversation. We can meet wherever you’re most comfortable.</li>
+
+<li>Within 2 weeks, you will receive a digital file, USB thumb drive and CD with an edited, professional quality recording that you will be able to cherish forever.</li>
+    </ul>
   </div>
 
   <div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
-    <div v-for="item of features" class="flex gap-4 items-start">
-      <div class="mt-1 bg-black rounded-full p-2 w-8 h-8 shrink-0">
-        <Icon class="text-white" :name="item.icon" />
-      </div>
+    <div class="flex gap-4 items-start">
       <div>
-        <h3 class="font-semibold text-lg">{{ item.title }}</h3>
-        <p class="text-slate-500 mt-2 leading-relaxed">
-          {{ item.description }}
-        </p>
+        <img class="mb-4" src="/assets/img/IMG_1024.jpg"/>
+        <iframe width="100%" height="150" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1197840955%3Fsecret_token%3Ds-1mcca0gwGFV&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+      </div>
+    </div>
+     <div class="flex gap-4 items-start">
+      <div>
+        <img class="mb-4" src="/assets/img/IMG_0093.jpeg"/>
+        <iframe width="100%" height="150" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1197841225%3Fsecret_token%3Ds-gLGGvpTRiFs&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+      </div>
+    </div>
+     <div class="flex gap-4 items-start">
+      <div>
+        <img class="mb-4" src="/assets/img/IMG-2127.jpeg"/>
+        <iframe width="100%" height="150" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1197841135%3Fsecret_token%3Ds-IQYz4O69Bwq&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
       </div>
     </div>
   </div>

@@ -1,14 +1,22 @@
 <template>
   <footer class="my-20">
     <p class="text-center text-sm text-slate-500">
-      Copyright © {{ new Date().getFullYear() }} Nuxtship. All rights reserved.
+      Copyright © {{ new Date().getFullYear() }} All rights reserved.
     </p>
     <!--
       Can we ask you a favor 🙏
       Please keep this backlink on your website if possible.
     -->
-    <p class="text-center text-xs text-slate-500 mt-1">
-      Made by
+    <p class="text-center text-xs text-slate-500 mt-1 px-2">
+      Site wrangler is 
+      <a 
+        target="_blank"
+        rel="noopener"
+        class="hover:underline"href="https://walkerlyle.com/"
+      >
+        donjuanpedro
+      </a> | 
+      Template by
       <a
         href="https://github.com/Gr33nW33n"
         target="_blank"
