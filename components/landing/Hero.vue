@@ -9,6 +9,7 @@
         format="avif"
         width="512"
         height="512"
+        title="microphone"
       />
     </div>
 
