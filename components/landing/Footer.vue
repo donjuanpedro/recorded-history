@@ -8,31 +8,13 @@
       Please keep this backlink on your website if possible.
     -->
     <p class="text-center text-xs text-slate-500 mt-1 px-2">
-      Site wrangler is 
+      Site by 
       <a 
         target="_blank"
         rel="noopener"
         class="hover:underline"href="https://walkerlyle.com/"
       >
         donjuanpedro
-      </a> | 
-      Template by
-      <a
-        href="https://github.com/Gr33nW33n"
-        target="_blank"
-        rel="noopener"
-        class="hover:underline"
-      >
-        Gr33nW33n
-      </a>
-      with attribution to
-      <a
-        href="https://web3templates.com"
-        target="_blank"
-        rel="noopener"
-        class="hover:underline"
-      >
-        Web3Templates
       </a>
     </p>
   </footer>

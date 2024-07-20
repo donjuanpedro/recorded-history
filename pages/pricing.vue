@@ -17,7 +17,7 @@ definePageMeta({
 
           <p>-Thoughtful questions curated specifically for you or your loved one</p>
           <p>-Professional setup for a high-quality audio recording of our conversation</p>
-          <p>-Delivery of a digital file, USB thumb drive and CD containing your memories</p>
+          <p>-Delivery of a USB thumb drive containing your memories</p>
         </div>
 </template>
     </LandingSectionhead>

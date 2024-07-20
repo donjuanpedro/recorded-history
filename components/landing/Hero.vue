@@ -3,7 +3,7 @@
     <div class="p-24 md:order-1 hidden md:block">
       <img
         class="rounded-full scale-125"
-        src="~/assets/img/hero.jpg"
+        src="~/assets/img/IMG_0132.jpg"
         alt="Starship starts the engine"
         loading="eager"
         format="avif"
@@ -15,7 +15,7 @@
 
     <div>
       <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight">
-        Recorded History tells your stories
+        We record your stories in your voice
       </h1>
       <p class="text-lg mt-4 text-slate-600 max-w-xl">
         Through a high-quality interview, you or your loved ones' memories are brought to life in curated candor
